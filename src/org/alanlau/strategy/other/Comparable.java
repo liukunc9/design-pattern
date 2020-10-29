@@ -1,4 +1,4 @@
-package org.alanlau.strategy;
+package org.alanlau.strategy.other;
 
 /**
  * @author liukun
