@@ -3,3 +3,4 @@
 ## 介绍
 - proxy：代理模式
 - iterator: 迭代器模式
+- singleton: 单例模式
