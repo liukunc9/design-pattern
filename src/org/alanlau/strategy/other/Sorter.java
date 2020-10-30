@@ -2,6 +2,7 @@ package org.alanlau.strategy.other;
 
 /**
  * 排序类
+ * 因为Comparable写在了具体的对象里，（...able表示是否有比较的能力），所以，每次要改变策略，就要去修改对象
  *
  * @author alan
  * @version 1.0

@@ -9,7 +9,7 @@ public class Sorter {
     /**
      * 排序
      * @param src 数组
-     * @param comparator 传一个该数组的比较器(这个比较器便是策略模式的体现）
+     * @param comparator 传一个该数组的比较器(这个比较器便是策略模式的体现, 支持提供不同的比较策略）
      * @param <T> 泛型
      */
     public static <T> void sort(T[] src, Comparator<T> comparator) {
