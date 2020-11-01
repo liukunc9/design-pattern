@@ -5,6 +5,7 @@
 - cor(chain of responsibility): 责任链模式
 - iterator: 迭代器模式
 - singleton: 单例模式
+- decorator: 装饰器模式
 - facade: 门面模式 外观模式
 - mediator: 调停者模式 仲裁者模式 中介模式
 ```
