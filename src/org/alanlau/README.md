@@ -4,6 +4,7 @@
 - proxy：代理模式
 - cor(chain of responsibility): 责任链模式
 - iterator: 迭代器模式
+- observer: 观察者模式
 - singleton: 单例模式
 - decorator: 装饰器模式
 - builder: 建造者模式
