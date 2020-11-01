@@ -2,6 +2,7 @@
 
 ## 介绍
 - proxy：代理模式
+- cor(chain of responsibility): 责任链模式
 - iterator: 迭代器模式
 - singleton: 单例模式
 - facade: 门面模式 外观模式
