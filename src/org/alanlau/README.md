@@ -10,6 +10,7 @@
 - decorator: 装饰器模式
 - builder: 建造者模式
 - adapter: 适配器模式
+- composite: 组合模式
 - facade: 门面模式 外观模式
 - mediator: 调停者模式 仲裁者模式 中介模式
 ```
