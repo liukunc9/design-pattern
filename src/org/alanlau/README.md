@@ -15,6 +15,7 @@
 - command: 命令模式
 - prototype: 原型模式
 - templateMethod: 模板方法模式
+- bridge: 桥接模式
 - facade: 门面模式 外观模式
 - mediator: 调停者模式 仲裁者模式 中介模式
 ```
