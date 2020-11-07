@@ -3,6 +3,10 @@
 ## 介绍
 - proxy：代理模式
 - cor(chain of responsibility): 责任链模式
+- 工厂系列
+    - simpleFactory: 简单工厂模式(不在 GoF 23 种设计模式之列)
+    - factoryMethod: 工厂方法模式
+    - abstractFactory: 抽象工厂模式
 - iterator: 迭代器模式
 - observer: 观察者模式
 - singleton: 单例模式
