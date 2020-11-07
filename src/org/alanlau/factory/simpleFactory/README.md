@@ -21,4 +21,4 @@
 
 ### 类图
 
-![avater](../../../../resourece/simpleFactory.png)
+![image](../../../../resourece/simpleFactory.png)
