@@ -7,11 +7,17 @@ package org.alanlau.factory.abstractFactory;
  */
 public class Main {
     public static void main(String[] args) {
-        AbstractFactory factory = new ConcreteFactory();
-        ProductA productA = factory.createProductA();
-        ProductB productB = factory.createProductB();
-        productA.show();
-        productB.test();
+        AbstractFactory factory = new ConcreteFactory1();
+        ProductA productA1 = factory.createProductA();
+        ProductB productB1 = factory.createProductB();
+        productA1.show();
+        productB1.test();
+
+        AbstractFactory factory2 = new ConcreteFactory2();
+        ProductA productA2 = factory2.createProductA();
+        ProductB productB2 = factory2.createProductB();
+        productA2.show();
+        productB2.test();
     }
 }
 
@@ -21,17 +27,32 @@ interface AbstractFactory {
 }
 
 /**
- * 实际的工厂
+ * 实际的工厂1
  */
-class ConcreteFactory implements AbstractFactory {
+class ConcreteFactory1 implements AbstractFactory {
     @Override
     public ProductA createProductA() {
-        return new ConcreteProductA();
+        return new ConcreteProductA1();
     }
 
     @Override
     public ProductB createProductB() {
-        return new ConcreteProductB();
+        return new ConcreteProductB1();
+    }
+}
+
+/**
+ * 实际的工厂2
+ */
+class ConcreteFactory2 implements AbstractFactory {
+    @Override
+    public ProductA createProductA() {
+        return new ConcreteProductA2();
+    }
+
+    @Override
+    public ProductB createProductB() {
+        return new ConcreteProductB2();
     }
 }
 
@@ -49,22 +70,30 @@ interface ProductB {
     void test();
 }
 
-/**
- * 实际的产品A
- */
-class ConcreteProductA implements ProductA {
+class ConcreteProductA1 implements ProductA {
     @Override
     public void show() {
-        System.out.println("实际的产品A");
+        System.out.println("实际的产品A1");
     }
 }
 
-/**
- * 实际的产品B
- */
-class ConcreteProductB implements ProductB {
+class ConcreteProductA2 implements ProductA {
+    @Override
+    public void show() {
+        System.out.println("实际的产品A2");
+    }
+}
+
+class ConcreteProductB1 implements ProductB {
     @Override
     public void test() {
-        System.out.println("实际的产品B");
+        System.out.println("实际的产品B1");
+    }
+}
+
+class ConcreteProductB2 implements ProductB {
+    @Override
+    public void test() {
+        System.out.println("实际的产品B2");
     }
 }
