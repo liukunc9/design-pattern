@@ -11,6 +11,7 @@
 - observer: 观察者模式
 - singleton: 单例模式
 - strategy: 策略模式
+- visitor: 访问者模式
 - decorator: 装饰器模式
 - builder: 建造者模式
 - adapter: 适配器模式
