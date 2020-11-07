@@ -7,7 +7,7 @@ package org.alanlau.factory.simpleFactory;
  */
 public class Main {
     public static void main(String[] args) {
-        Product product = SimpleFactory.makeProduct(Const.PRODUCT_A);
+        Product product = SimpleFactory.createProduct(Const.PRODUCT_A);
         product.show();
     }
 }
@@ -19,7 +19,7 @@ final class Const {
 }
 
 class SimpleFactory {
-    public static Product makeProduct(int kind) {
+    public static Product createProduct(int kind) {
         switch (kind) {
             case Const.PRODUCT_A:
                 return new ConcreteProduct1();
